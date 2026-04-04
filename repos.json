@@ -25,14 +25,21 @@
   ],
   "registered_groups": [
     "audio",
+    "blog",
     "browser",
     "chromeextension",
+    "daw",
     "etc",
     "fightinggame",
     "github",
+    "mml",
     "obsidian",
+    "stub",
+    "tonejs",
     "ungrouped",
     "vibes",
+    "webaudio",
+    "ym2151",
     "zundamon"
   ],
   "repos": [
@@ -51,7 +58,7 @@
     {
       "name": "own-repos-curator-data",
       "created_at": "2026-04-04T06:09:56Z",
-      "updated_at": "2026-04-04T10:17:10Z",
+      "updated_at": "2026-04-04T15:48:28Z",
       "github_desc": "",
       "desc_short": "リポジトリ群を訪問者にわかりやすく可視化",
       "desc_long": "",
@@ -133,7 +140,7 @@
       "github_desc": "",
       "desc_short": "Surge XTの音色をオフラインレンダリングするためのライブラリ",
       "desc_long": "",
-      "group": "audio",
+      "group": "daw",
       "tags": [
         "audio",
         "daw",
@@ -147,7 +154,7 @@
       "github_desc": "",
       "desc_short": "FM音源波形をTUIでグラフ表示するためのライブラリ",
       "desc_long": "",
-      "group": "audio",
+      "group": "ym2151",
       "tags": [
         "audio",
         "tui"
@@ -160,7 +167,7 @@
       "github_desc": "",
       "desc_short": "MMLのDAW",
       "desc_long": "",
-      "group": "audio",
+      "group": "daw",
       "tags": [
         "audio",
         "daw",
@@ -174,7 +181,7 @@
       "github_desc": "",
       "desc_short": "はてなブログの投稿記事をGitHubで書く",
       "desc_long": "",
-      "group": "github",
+      "group": "blog",
       "tags": [
         "blog"
       ]
@@ -239,7 +246,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "stub",
       "tags": [
         "audio",
         "browser"
@@ -265,7 +272,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "stub",
       "tags": [
         "audio",
         "browser"
@@ -290,7 +297,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "github",
+      "group": "stub",
       "tags": []
     },
     {
@@ -300,7 +307,7 @@
       "github_desc": "",
       "desc_short": "Tone.jsの音色エディタ。ランダム音色機能つき",
       "desc_long": "",
-      "group": "audio",
+      "group": "tonejs",
       "tags": [
         "audio",
         "browser"
@@ -313,7 +320,7 @@
       "github_desc": "",
       "desc_short": "Tone.jsのステップシーケンサ。ランダム音色機能つき",
       "desc_long": "",
-      "group": "audio",
+      "group": "tonejs",
       "tags": [
         "audio",
         "browser"
@@ -326,7 +333,7 @@
       "github_desc": "",
       "desc_short": "FM音源をブラウザで鳴らすためのライブラリ",
       "desc_long": "",
-      "group": "audio",
+      "group": "ym2151",
       "tags": [
         "audio",
         "browser"
@@ -339,7 +346,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "stub",
       "tags": []
     },
     {
@@ -349,7 +356,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "stub",
       "tags": []
     },
     {
@@ -359,7 +366,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "github",
+      "group": "stub",
       "tags": []
     },
     {
@@ -369,7 +376,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "github",
+      "group": "stub",
       "tags": []
     },
     {
@@ -379,7 +386,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "github",
+      "group": "stub",
       "tags": []
     },
     {
@@ -389,7 +396,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "stub",
       "tags": []
     },
     {
@@ -425,7 +432,7 @@
       "github_desc": "Software synthesizer. Simple. Non-realtime rendering",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "stub",
       "tags": [
         "audio",
         "browser"
@@ -438,7 +445,7 @@
       "github_desc": "This oscilloscope visualizes audio from your microphone or wav-file with zero-cross detection for stable waveform display.",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "tonejs",
       "tags": [
         "audio",
         "browser"
@@ -451,7 +458,7 @@
       "github_desc": "",
       "desc_short": "ブログとwikiが合体したスタイル。書きかけ記事をガーデニングして育てていく",
       "desc_long": "",
-      "group": "obsidian",
+      "group": "blog",
       "tags": [
         "blog",
         "browser"
@@ -464,7 +471,7 @@
       "github_desc": "YM2151 event log editor with TUI interface. Written in Rust",
       "desc_short": "FM音源レジスタ書き込みログを編集するTUI",
       "desc_long": "",
-      "group": "audio",
+      "group": "ym2151",
       "tags": [
         "audio",
         "tui"
@@ -477,7 +484,7 @@
       "github_desc": "Server and client that receive YM2151 (OPM) register event logs and perform real-time playback.",
       "desc_short": "FM音源を鳴らすためのライブラリ",
       "desc_long": "",
-      "group": "audio",
+      "group": "ym2151",
       "tags": [
         "audio"
       ]
@@ -489,7 +496,7 @@
       "github_desc": "MML(Music Macro Language)用のTUI(テキストユーザーインターフェース)エディタ。即時再生可",
       "desc_short": "MMLエディタ",
       "desc_long": "",
-      "group": "audio",
+      "group": "ym2151",
       "tags": [
         "audio",
         "mml",
@@ -503,7 +510,7 @@
       "github_desc": "YM2151 (OPM) FM synthesizer tone editor for Windows. TUI. Written in Rust",
       "desc_short": "FM音源音色エディタ",
       "desc_long": "",
-      "group": "audio",
+      "group": "ym2151",
       "tags": [
         "audio",
         "tui"
@@ -516,7 +523,7 @@
       "github_desc": "[WIP] vim初心者に成功体験を与える用のジョークアプリ。vimのサブセット。極端に機能を削減し、モードとキーバインドを過剰に派手に表示する",
       "desc_short": "vimに過剰なヘルプ説明をつけたジョークアプリ",
       "desc_long": "",
-      "group": "etc",
+      "group": "stub",
       "tags": [
         "tui"
       ]
@@ -528,7 +535,7 @@
       "github_desc": "[WIP] smf-to-ym2151log のRust版",
       "desc_short": "スタンダードMIDIファイルをFM音源で鳴らすためのライブラリ",
       "desc_long": "",
-      "group": "audio",
+      "group": "ym2151",
       "tags": [
         "audio",
         "browser"
@@ -541,7 +548,7 @@
       "github_desc": "A conversion library from Music Macro Language (MML) to Standard MIDI File (SMF)",
       "desc_short": "FM音源MMLコンパイラ",
       "desc_long": "",
-      "group": "audio",
+      "group": "ym2151",
       "tags": [
         "audio",
         "compiler"
@@ -554,7 +561,7 @@
       "github_desc": "Music Macro Language (MML) Parser and Player and Server and Client",
       "desc_short": "コマンドライン引数にcdeを書くだけでドレミが鳴るFM音源MMLプレイヤー",
       "desc_long": "",
-      "group": "audio",
+      "group": "ym2151",
       "tags": [
         "audio",
         "cui"
@@ -577,7 +584,7 @@
       "github_desc": "マウスで鳴らせるオシレータ・ハードシンク・シンセサイザー",
       "desc_short": "オシレータシンク音色で遊ぼう",
       "desc_long": "",
-      "group": "audio",
+      "group": "tonejs",
       "tags": [
         "audio",
         "browser"
@@ -602,7 +609,7 @@
       "github_desc": "WIP",
       "desc_short": "",
       "desc_long": "",
-      "group": "etc",
+      "group": "stub",
       "tags": []
     },
     {
@@ -648,7 +655,7 @@
       "github_desc": "MML(Music Macro Language) to Tone.js JSON Sequencer Format Converter",
       "desc_short": "Tone.js用MMLコンパイラ",
       "desc_long": "",
-      "group": "audio",
+      "group": "tonejs",
       "tags": [
         "audio",
         "browser",
@@ -662,7 +669,7 @@
       "github_desc": "Lightweight library enabling JSON-based description of Tone.js instruments, effects, and playback.",
       "desc_short": "Tone.jsをデータで演奏。面倒なプログラミングは不要",
       "desc_long": "",
-      "group": "audio",
+      "group": "tonejs",
       "tags": [
         "audio",
         "browser"
@@ -685,7 +692,7 @@
       "github_desc": "",
       "desc_short": "",
       "desc_long": "",
-      "group": "etc",
+      "group": "stub",
       "tags": []
     },
     {
@@ -695,7 +702,7 @@
       "github_desc": "オープンソース、自分の用途にマッチした挙動のlogger、を楽に作れるかの検証用",
       "desc_short": "",
       "desc_long": "",
-      "group": "etc",
+      "group": "stub",
       "tags": []
     },
     {
@@ -705,7 +712,7 @@
       "github_desc": "An experimental project for MIDI connections and audio transmission between multiple webpages using only the browser and postMessage.",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "tonejs",
       "tags": [
         "audio",
         "browser"
@@ -718,7 +725,7 @@
       "github_desc": "",
       "desc_short": "Zenn投稿記事をGitHubで書く",
       "desc_long": "",
-      "group": "github",
+      "group": "blog",
       "tags": [
         "blog"
       ]
@@ -730,7 +737,7 @@
       "github_desc": "webpageを開くだけでソフトシンセで音が鳴る、最小規模のソースコード、テンプレート用",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "stub",
       "tags": [
         "audio",
         "browser"
@@ -743,7 +750,7 @@
       "github_desc": "webpageを開くだけでMIDI楽器を鳴らせる、最小規模のソースコード、テンプレート用",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "stub",
       "tags": [
         "audio",
         "browser"
@@ -768,7 +775,7 @@
       "github_desc": "A library for using chord2mml and abcjs easily in the browser.",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "webaudio",
       "tags": [
         "audio",
         "browser"
@@ -781,10 +788,11 @@
       "github_desc": "A library transpiles Chord notation into Music Macro Language.",
       "desc_short": "コード進行をMMLに変換",
       "desc_long": "",
-      "group": "audio",
+      "group": "webaudio",
       "tags": [
         "audio",
-        "browser"
+        "browser",
+        "compiler"
       ]
     },
     {
@@ -794,7 +802,7 @@
       "github_desc": "A library for using mml2abc and abcjs easily in the browser.",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "webaudio",
       "tags": [
         "audio",
         "browser"
@@ -807,7 +815,7 @@
       "github_desc": "A library transpiles Music Macro Language into ABC music notation.",
       "desc_short": "MMLをabc notationにトランスパイル",
       "desc_long": "",
-      "group": "audio",
+      "group": "webaudio",
       "tags": [
         "audio",
         "browser",
@@ -821,7 +829,7 @@
       "github_desc": "A library for using abcjs easily in the browser.",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "webaudio",
       "tags": [
         "audio",
         "browser"
@@ -934,7 +942,7 @@
       "github_desc": "crisp-game-libを使って作ったゲーム",
       "desc_short": "",
       "desc_long": "",
-      "group": "etc",
+      "group": "stub",
       "tags": []
     },
     {
@@ -944,7 +952,7 @@
       "github_desc": "cdefgabを入力するごとにその音が鳴るMMLエディタ（実験用）",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "mml",
       "tags": [
         "audio",
         "browser"
@@ -957,7 +965,7 @@
       "github_desc": "A lightweight, browser-based generator for creating Music Macro Language (MML) templates.",
       "desc_short": "MMLをほかのMMLに変換",
       "desc_long": "",
-      "group": "audio",
+      "group": "mml",
       "tags": [
         "audio",
         "browser",
@@ -971,7 +979,7 @@
       "github_desc": "ブラウザで音が鳴らせるMMLエディタ http://cat2151.github.io/MML-editor/",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "mml",
       "tags": [
         "audio",
         "browser"
@@ -984,7 +992,7 @@
       "github_desc": "MMLをブラウザで演奏・編集。できるだけ少ない操作で演奏できるものを狙う。",
       "desc_short": "",
       "desc_long": "",
-      "group": "audio",
+      "group": "mml",
       "tags": [
         "audio",
         "browser"

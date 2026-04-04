@@ -177,6 +177,18 @@ function collectGroupCounts(repos: RepoEntry[]): Map<string, number> {
   return counts;
 }
 
+function getGroupTabSortBucket(name: string): number {
+  if (name === "etc") {
+    return 1;
+  }
+
+  if (name === "stub") {
+    return 2;
+  }
+
+  return 0;
+}
+
 function listAvailableGroups(data: ReposData): Array<{ name: string; count: number }> {
   const counts = collectGroupCounts(data.repos);
   const orderedNames = new Set<string>(data.registered_groups ?? []);
@@ -187,7 +199,15 @@ function listAvailableGroups(data: ReposData): Array<{ name: string; count: numb
 
   return [...orderedNames]
     .map((name) => ({ name, count: counts.get(name) ?? 0 }))
-    .filter((entry) => entry.count > 0);
+    .filter((entry) => entry.count > 0)
+    .sort((left, right) => {
+      const bucketDifference = getGroupTabSortBucket(left.name) - getGroupTabSortBucket(right.name);
+      if (bucketDifference !== 0) {
+        return bucketDifference;
+      }
+
+      return right.count - left.count || left.name.localeCompare(right.name);
+    });
 }
 
 function renderRegisteredTags(tags: string[], repos: RepoEntry[], activeTags: string[]): string {
