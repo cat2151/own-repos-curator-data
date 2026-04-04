@@ -1,14 +1,17 @@
 {
   "name": "own-repos-curator-data",
   "version": "1.0.0",
-  "description": "Static site generator for own repos curator",
+  "description": "Vite app for own repos curator",
   "scripts": {
-    "build": "ts-node src/generate.ts",
+    "dev": "vite",
+    "build": "vite build --base ./",
+    "preview": "vite preview",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/node": "^20.12.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
-    "@types/node": "^20.12.12"
+    "vite": "^8.0.3"
   }
 }

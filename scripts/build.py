@@ -2,7 +2,7 @@
 """Build script for the static site.
 
 Called by the GitHub Actions workflow to install dependencies and
-generate dist/index.html from data/repos.json using TypeScript.
+build dist/ with Vite.
 """
 
 import subprocess
@@ -21,7 +21,7 @@ def install_deps() -> None:
 
 
 def build() -> None:
-    run(["npx", "ts-node", "src/generate.ts"])
+    run(["npm", "run", "build"])
 
 
 def main() -> None:
