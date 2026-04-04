@@ -1,0 +1,14 @@
+{
+  "name": "own-repos-curator-data",
+  "version": "1.0.0",
+  "description": "Static site generator for own repos curator",
+  "scripts": {
+    "build": "ts-node src/generate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.12"
+  }
+}
