@@ -1,0 +1,1 @@
+- repo.jsonは編集禁止。read only
