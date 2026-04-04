@@ -1,6 +1,7 @@
 export interface RepoMeta {
   github_desc_updated_at: string;
   last_json_commit_push_date: string;
+  owner?: string;
 }
 
 export interface RepoEntry {

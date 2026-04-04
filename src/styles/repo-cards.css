@@ -1,0 +1,156 @@
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+.tag-button {
+  appearance: none;
+  border: 1px solid transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+}
+
+.tag-button:hover {
+  border-color: var(--tag-hover-border);
+}
+
+.tag-button:disabled,
+.tag-button.is-disabled {
+  background: var(--tag-disabled-bg);
+  border-color: transparent;
+  color: var(--tag-disabled-text);
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
+.tag-button:disabled:hover,
+.tag-button.is-disabled:hover {
+  border-color: transparent;
+}
+
+.tag-button.is-active {
+  background: var(--tag-active-bg);
+  border-color: var(--tag-active-border);
+  color: var(--tag-active-text);
+}
+
+.tag-clear-button {
+  background: transparent;
+  border-color: var(--border);
+}
+
+.tag-empty {
+  background: var(--tag-empty-bg);
+  color: var(--muted);
+}
+
+.repo-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.repo-card {
+  padding: 1.25rem;
+}
+
+.repo-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.repo-title-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.repo-card h2 {
+  font-size: 1.2rem;
+}
+
+.repo-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition:
+    color 120ms ease,
+    border-color 120ms ease;
+}
+
+.repo-link:hover {
+  color: var(--accent);
+  border-color: currentColor;
+}
+
+.repo-link:focus-visible {
+  outline: 2px solid var(--focus-outline);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.group-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  background: var(--badge-bg);
+  color: var(--accent);
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+.group-badge-button {
+  appearance: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+}
+
+.group-badge-button:hover {
+  border-color: var(--badge-hover-border);
+  background: var(--badge-hover-bg);
+}
+
+.group-badge-button:focus-visible {
+  outline: 2px solid var(--focus-outline);
+  outline-offset: 2px;
+}
+
+.repo-summary {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.repo-detail {
+  margin-top: 0.9rem;
+}
+
+.repo-detail summary {
+  cursor: pointer;
+  color: var(--accent);
+}
+
+.repo-detail pre {
+  white-space: pre-wrap;
+  margin: 0.75rem 0 0;
+  padding: 0.9rem;
+  border-radius: 12px;
+  background: var(--detail-bg);
+  font: inherit;
+  line-height: 1.6;
+}

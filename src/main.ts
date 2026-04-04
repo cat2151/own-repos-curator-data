@@ -1,5 +1,6 @@
 import reposData from "../repos.json";
 import { getAppTitle, renderApp } from "./render";
+import { resolveOwner, resolvePreferredRepoUrl } from "./repo-links";
 import type { ReposData } from "./types";
 import "./styles.css";
 
@@ -370,9 +371,66 @@ function applyGroupChange(nextGroup: string | null, behavior: MountBehavior = {}
   mount(behavior);
 }
 
+function openPendingRepoTab(repoName: string): Window | null {
+  const openedTab = window.open("about:blank", "_blank");
+  if (!openedTab) {
+    return null;
+  }
+
+  try {
+    openedTab.document.title = `Opening ${repoName}`;
+    openedTab.document.body.textContent = `Opening ${repoName}...`;
+  } catch {
+    // Ignore same-origin access failures and continue with the navigation fallback.
+  }
+
+  return openedTab;
+}
+
+async function openResolvedRepoLink(link: HTMLAnchorElement): Promise<void> {
+  const repoName = link.dataset.openRepo?.trim();
+  if (!repoName) {
+    window.open(link.href, "_blank", "noopener,noreferrer");
+    return;
+  }
+
+  const owner = resolveOwner(currentData);
+  if (!owner) {
+    window.open(link.href, "_blank", "noopener,noreferrer");
+    return;
+  }
+
+  const openedTab = openPendingRepoTab(repoName);
+  if (!openedTab) {
+    window.open(link.href, "_blank", "noopener,noreferrer");
+    return;
+  }
+
+  let destination = link.href;
+
+  try {
+    destination = await resolvePreferredRepoUrl(owner, repoName);
+  } finally {
+    try {
+      openedTab.opener = null;
+    } catch {
+      // Ignore browsers that expose opener as read-only here.
+    }
+
+    openedTab.location.replace(destination);
+  }
+}
+
 function handleAppClick(event: MouseEvent): void {
   const target = event.target;
   if (!(target instanceof Element)) {
+    return;
+  }
+
+  const repoLink = target.closest<HTMLAnchorElement>("[data-open-repo]");
+  if (repoLink) {
+    event.preventDefault();
+    void openResolvedRepoLink(repoLink);
     return;
   }
 

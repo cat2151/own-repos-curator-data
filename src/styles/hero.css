@@ -1,0 +1,111 @@
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.hero-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.hero-copy {
+  flex: 1 1 20rem;
+}
+
+.guide-toggle {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.25rem;
+  height: 3.1rem;
+  padding: 0;
+  border: 1px solid var(--control-border);
+  border-radius: 16px;
+  background: var(--surface-control);
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit;
+  transition:
+    transform 120ms ease,
+    border-color 120ms ease,
+    background-color 120ms ease,
+    color 120ms ease;
+}
+
+.guide-toggle:hover {
+  transform: translateY(-1px);
+  border-color: var(--control-border-hover);
+}
+
+.guide-toggle.is-open {
+  background: var(--surface-control-active);
+  border-color: var(--control-border-active);
+}
+
+.guide-toggle-bars {
+  display: grid;
+  gap: 0.22rem;
+  width: 1.3rem;
+}
+
+.guide-toggle-bars span {
+  display: block;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.hero-help {
+  margin-top: 1rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--help-border);
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--surface-help-start) 0%, var(--surface-help-end) 100%);
+}
+
+.hero-help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem 1.5rem;
+}
+
+.hero-help-intro {
+  margin-bottom: 0.85rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.hero-help-block {
+  min-width: 0;
+}
+
+.hero-help-label {
+  margin-bottom: 0.45rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.hero-help-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.hero-help-list li + li {
+  margin-top: 0.3rem;
+}
+
+.meta-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}

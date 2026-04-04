@@ -4,14 +4,17 @@
   "description": "Vite app for own repos curator",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base ./",
+    "build": "npm run generate-repo-targets && vite build --base ./",
+    "generate-repo-targets": "node scripts/generate-repo-targets.mjs",
     "preview": "vite preview",
+    "test": "vitest run --config vitest.config.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
-    "vite": "^8.0.3"
+    "vite": "^8.0.3",
+    "vitest": "^4.1.2"
   }
 }

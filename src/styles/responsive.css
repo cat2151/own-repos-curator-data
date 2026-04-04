@@ -1,0 +1,49 @@
+@media (max-width: 720px) {
+  main {
+    width: min(72rem, calc(100% - 1rem));
+    padding: 1rem 0 2rem;
+  }
+
+  .hero,
+  .section,
+  .repo-card {
+    border-radius: 14px;
+  }
+
+  .guide-toggle {
+    width: 3rem;
+    height: 2.9rem;
+  }
+
+  .hero-help {
+    padding: 0.95rem;
+  }
+
+  .repo-card-header {
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .group-tab-strip {
+    margin-inline: -0.15rem;
+  }
+
+  .group-tab-scroll {
+    width: 2.35rem;
+    height: 2.35rem;
+    bottom: 0.25rem;
+  }
+
+  .group-tab-scroll[data-scroll-group-tabs="previous"] {
+    left: -0.1rem;
+  }
+
+  .group-tab-scroll[data-scroll-group-tabs="next"] {
+    right: -0.1rem;
+  }
+
+  .tab-panel {
+    border-radius: 0 14px 14px 14px;
+    padding: 1rem;
+  }
+}
