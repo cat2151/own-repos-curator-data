@@ -17,7 +17,7 @@ def run(cmd: list[str], **kwargs) -> None:
 
 
 def install_deps() -> None:
-    run(["npm", "install"])
+    run(["npm", "ci"])
 
 
 def build() -> None:
