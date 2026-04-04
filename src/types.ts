@@ -10,11 +10,13 @@ export interface RepoEntry {
   github_desc: string;
   desc_short: string;
   desc_long: string;
+  group?: string;
   tags: string[];
 }
 
 export interface ReposData {
   meta: RepoMeta;
   registered_tags: string[];
+  registered_groups?: string[];
   repos: RepoEntry[];
 }
