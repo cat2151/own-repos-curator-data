@@ -40,7 +40,7 @@
   "repos": [
     {
       "name": "own-repos-curator-to-hatena",
-      "url": "https://github.com/cat2151/own-repos-curator-to-hatena/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/own-repos-curator-to-hatena/README.ja.html",
       "created_at": "2026-04-05T07:02:58Z",
       "updated_at": "2026-04-05T13:58:52Z",
       "github_desc": "",
@@ -53,7 +53,7 @@
     },
     {
       "name": "own-repos-curator",
-      "url": "https://github.com/cat2151/own-repos-curator/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/own-repos-curator/README.ja.html",
       "created_at": "2026-04-04T07:11:40Z",
       "updated_at": "2026-04-05T13:24:50Z",
       "github_desc": "",
@@ -68,7 +68,7 @@
       "name": "own-repos-curator-data",
       "url": "https://cat2151.github.io/own-repos-curator-data/",
       "created_at": "2026-04-04T06:09:56Z",
-      "updated_at": "2026-04-05T14:00:07Z",
+      "updated_at": "2026-04-05T14:01:59Z",
       "github_desc": "",
       "desc_short": "リポジトリ群を訪問者にわかりやすく可視化",
       "desc_long": "",
@@ -79,7 +79,7 @@
     },
     {
       "name": "cat-self-update",
-      "url": "https://github.com/cat2151/cat-self-update/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/cat-self-update/README.ja.html",
       "created_at": "2026-03-23T13:25:25Z",
       "updated_at": "2026-04-05T09:45:59Z",
       "github_desc": "",
@@ -92,7 +92,7 @@
     },
     {
       "name": "claude-chat-code",
-      "url": "https://github.com/cat2151/claude-chat-code/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/claude-chat-code/README.ja.html",
       "created_at": "2026-03-22T10:10:55Z",
       "updated_at": "2026-03-26T23:17:23Z",
       "github_desc": "",
@@ -106,7 +106,7 @@
     },
     {
       "name": "cat-gh-repo-creator",
-      "url": "https://github.com/cat2151/cat-gh-repo-creator/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/cat-gh-repo-creator/README.ja.html",
       "created_at": "2026-03-22T08:47:55Z",
       "updated_at": "2026-04-05T13:31:40Z",
       "github_desc": "",
@@ -121,7 +121,7 @@
     },
     {
       "name": "mascot-render-server",
-      "url": "https://github.com/cat2151/mascot-render-server/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/mascot-render-server/README.ja.html",
       "created_at": "2026-03-22T06:20:59Z",
       "updated_at": "2026-04-05T11:54:46Z",
       "github_desc": "",
@@ -135,7 +135,7 @@
     },
     {
       "name": "norenwake",
-      "url": "https://github.com/cat2151/norenwake/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/norenwake/README.ja.html",
       "created_at": "2026-03-20T11:39:44Z",
       "updated_at": "2026-04-04T16:31:39Z",
       "github_desc": "A TUI for Windows to create new repositories by 'norenwake' (branching off) your own public GitHub repositories. Written in Rust.",
@@ -150,7 +150,7 @@
     },
     {
       "name": "clap-mml-play-server",
-      "url": "https://github.com/cat2151/clap-mml-play-server/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/clap-mml-play-server/README.ja.html",
       "created_at": "2026-03-20T09:56:19Z",
       "updated_at": "2026-03-20T13:50:09Z",
       "github_desc": "",
@@ -179,7 +179,7 @@
     },
     {
       "name": "clap-mml-render-tui",
-      "url": "https://github.com/cat2151/clap-mml-render-tui/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/clap-mml-render-tui/README.ja.html",
       "created_at": "2026-03-13T13:01:25Z",
       "updated_at": "2026-04-05T11:53:11Z",
       "github_desc": "",
@@ -196,7 +196,7 @@
       "name": "cat2151-hatena-blog-contents",
       "url": "https://cat2151.github.io/cat2151-hatena-blog-contents/",
       "created_at": "2026-03-11T13:24:06Z",
-      "updated_at": "2026-04-05T12:00:34Z",
+      "updated_at": "2026-04-05T14:05:09Z",
       "github_desc": "",
       "desc_short": "はてなブログの投稿記事をGitHubで書く",
       "desc_long": "",
@@ -207,7 +207,7 @@
     },
     {
       "name": "bluesky-text-to-audio",
-      "url": "https://github.com/cat2151/bluesky-text-to-audio/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/bluesky-text-to-audio/README.ja.html",
       "created_at": "2026-03-04T13:45:40Z",
       "updated_at": "2026-04-03T00:48:06Z",
       "github_desc": "",
@@ -222,7 +222,7 @@
     },
     {
       "name": "voicevox-playground-tui",
-      "url": "https://github.com/cat2151/voicevox-playground-tui/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/voicevox-playground-tui/README.ja.html",
       "created_at": "2026-03-04T13:14:50Z",
       "updated_at": "2026-04-05T11:47:52Z",
       "github_desc": "",
@@ -237,7 +237,7 @@
     },
     {
       "name": "zenn-qiita-mute-warning",
-      "url": "https://github.com/cat2151/zenn-qiita-mute-warning/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/zenn-qiita-mute-warning/README.ja.html",
       "created_at": "2026-03-01T02:20:42Z",
       "updated_at": "2026-03-09T13:54:16Z",
       "github_desc": "",
@@ -250,7 +250,7 @@
     },
     {
       "name": "cat-repo-auditor",
-      "url": "https://github.com/cat2151/cat-repo-auditor/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/cat-repo-auditor/README.ja.html",
       "created_at": "2026-02-13T13:24:05Z",
       "updated_at": "2026-04-05T13:11:35Z",
       "github_desc": "WIP",
@@ -306,7 +306,7 @@
     },
     {
       "name": "obsidian-cat-jump",
-      "url": "https://github.com/cat2151/obsidian-cat-jump/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/obsidian-cat-jump/README.ja.html",
       "created_at": "2026-01-21T22:53:14Z",
       "updated_at": "2026-02-01T09:31:06Z",
       "github_desc": "Quickly jump to lines using a-z labels.",
@@ -438,7 +438,7 @@
     },
     {
       "name": "cat-github-watcher",
-      "url": "https://cat2151.github.io/cat-github-watcher/",
+      "url": "https://cat2151.github.io/cat-github-watcher/README.ja.html",
       "created_at": "2026-01-03T04:12:04Z",
       "updated_at": "2026-03-19T22:03:38Z",
       "github_desc": "",
@@ -451,7 +451,7 @@
     },
     {
       "name": "quartz-transformer-mmlabc",
-      "url": "https://github.com/cat2151/quartz-transformer-mmlabc/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/quartz-transformer-mmlabc/README.ja.html",
       "created_at": "2025-12-31T11:29:41Z",
       "updated_at": "2026-03-07T22:02:05Z",
       "github_desc": "A Quartz transformer plugin that converts MML (Music Macro Language) and chord notation code blocks to interactive music notation using abcjs.",
@@ -508,7 +508,7 @@
     },
     {
       "name": "ym2151-log-editor",
-      "url": "https://github.com/cat2151/ym2151-log-editor/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/ym2151-log-editor/README.ja.html",
       "created_at": "2025-12-13T07:14:29Z",
       "updated_at": "2026-03-17T22:10:31Z",
       "github_desc": "YM2151 event log editor with TUI interface. Written in Rust",
@@ -522,7 +522,7 @@
     },
     {
       "name": "ym2151-log-play-server",
-      "url": "https://github.com/cat2151/ym2151-log-play-server/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/ym2151-log-play-server/README.ja.html",
       "created_at": "2025-11-07T14:07:24Z",
       "updated_at": "2026-03-03T22:04:39Z",
       "github_desc": "Server and client that receive YM2151 (OPM) register event logs and perform real-time playback.",
@@ -550,7 +550,7 @@
     },
     {
       "name": "ym2151-tone-editor",
-      "url": "https://github.com/cat2151/ym2151-tone-editor/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/ym2151-tone-editor/README.ja.html",
       "created_at": "2025-11-04T14:00:34Z",
       "updated_at": "2026-03-23T00:26:34Z",
       "github_desc": "YM2151 (OPM) FM synthesizer tone editor for Windows. TUI. Written in Rust",
@@ -605,7 +605,7 @@
     },
     {
       "name": "cat-play-mml",
-      "url": "https://github.com/cat2151/cat-play-mml/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/cat-play-mml/README.ja.html",
       "created_at": "2025-10-18T13:51:46Z",
       "updated_at": "2026-03-13T14:15:07Z",
       "github_desc": "Music Macro Language (MML) Parser and Player and Server and Client",
@@ -619,7 +619,7 @@
     },
     {
       "name": "cat-window-watcher",
-      "url": "https://github.com/cat2151/cat-window-watcher/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/cat-window-watcher/README.ja.html",
       "created_at": "2025-10-18T06:20:02Z",
       "updated_at": "2026-03-17T22:12:16Z",
       "github_desc": "WIP",
@@ -681,7 +681,7 @@
     },
     {
       "name": "cat-file-watcher",
-      "url": "https://cat2151.github.io/cat-file-watcher/",
+      "url": "https://cat2151.github.io/cat-file-watcher/README.ja.html",
       "created_at": "2025-10-10T13:14:41Z",
       "updated_at": "2026-03-29T22:05:02Z",
       "github_desc": "File Change Monitoring Tool - Detects file changes and executes commands",
@@ -694,7 +694,7 @@
     },
     {
       "name": "github-actions",
-      "url": "https://github.com/cat2151/github-actions/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/github-actions/README.ja.html",
       "created_at": "2025-07-19T11:40:06Z",
       "updated_at": "2026-03-28T22:08:02Z",
       "github_desc": "collection of reusable GitHub Actions workflows for multiple projects",
@@ -736,7 +736,7 @@
     },
     {
       "name": "fighting-game-button-challenge",
-      "url": "https://github.com/cat2151/fighting-game-button-challenge/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/fighting-game-button-challenge/README.ja.html",
       "created_at": "2025-05-31T08:54:37Z",
       "updated_at": "2026-03-16T22:09:44Z",
       "github_desc": "A tool to practice button inputs for fighting games on Windows. Ideal for leverless controllers in games like Street Fighter 6.",
@@ -851,7 +851,7 @@
     },
     {
       "name": "chord2mml",
-      "url": "https://github.com/cat2151/chord2mml/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/chord2mml/README.ja.html",
       "created_at": "2023-12-17T06:48:14Z",
       "updated_at": "2026-03-08T01:35:55Z",
       "github_desc": "A library transpiles Chord notation into Music Macro Language.",
@@ -880,7 +880,7 @@
     },
     {
       "name": "mml2abc",
-      "url": "https://github.com/cat2151/mml2abc/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/mml2abc/README.ja.html",
       "created_at": "2023-12-13T11:57:28Z",
       "updated_at": "2026-03-07T22:02:56Z",
       "github_desc": "A library transpiles Music Macro Language into ABC music notation.",
@@ -909,7 +909,7 @@
     },
     {
       "name": "cat-obsidian-templater-scripts",
-      "url": "https://github.com/cat2151/cat-obsidian-templater-scripts/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/cat-obsidian-templater-scripts/README.ja.html",
       "created_at": "2023-11-25T07:43:45Z",
       "updated_at": "2026-01-07T22:04:45Z",
       "github_desc": "Simple user scripts for the Obsidian Templater plugin.",
@@ -953,7 +953,7 @@
     },
     {
       "name": "mini-command-palette-hidemaru",
-      "url": "https://github.com/cat2151/mini-command-palette-hidemaru/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/mini-command-palette-hidemaru/README.ja.html",
       "created_at": "2022-04-10T05:30:01Z",
       "updated_at": "2026-03-28T04:59:30Z",
       "github_desc": "",
@@ -1008,7 +1008,7 @@
     },
     {
       "name": "msys2-auto-install",
-      "url": "https://github.com/cat2151/msys2-auto-install/blob/HEAD/README.ja.md",
+      "url": "https://cat2151.github.io/msys2-auto-install/README.ja.html",
       "created_at": "2022-03-19T13:11:42Z",
       "updated_at": "2026-03-28T12:21:10Z",
       "github_desc": "MSYS2 auto install",
@@ -1030,7 +1030,7 @@
     },
     {
       "name": "mml-repl-like",
-      "url": "https://cat2151.github.io/mml-repl-like/",
+      "url": "https://cat2151.github.io/mml-repl-like/README.ja.html",
       "created_at": "2021-05-17T16:18:47Z",
       "updated_at": "2026-03-16T15:16:26Z",
       "github_desc": "cdefgabを入力するごとにその音が鳴るMMLエディタ（実験用）",
