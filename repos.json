@@ -42,10 +42,10 @@
       "name": "own-repos-curator-to-hatena",
       "url": "https://cat2151.github.io/own-repos-curator-to-hatena/README.ja.html",
       "created_at": "2026-04-05T07:02:58Z",
-      "updated_at": "2026-04-05T13:58:52Z",
+      "updated_at": "2026-04-05T14:43:06Z",
       "github_desc": "",
-      "desc_short": "",
-      "desc_long": "",
+      "desc_short": "紹介文を、はてなブログに投稿",
+      "desc_long": "- linkの選択もここで行っています。JekyllのREADME.ja.htmlを選ぶ処理はここ。",
       "group": "github",
       "tags": [
         "blog"
@@ -55,7 +55,7 @@
       "name": "own-repos-curator",
       "url": "https://cat2151.github.io/own-repos-curator/README.ja.html",
       "created_at": "2026-04-04T07:11:40Z",
-      "updated_at": "2026-04-05T13:24:50Z",
+      "updated_at": "2026-04-05T14:38:54Z",
       "github_desc": "",
       "desc_short": "リポジトリ一覧を軸に、紹介文のメンテを効率化",
       "desc_long": "- どんなとき嬉しいか：リポジトリ一覧を紹介したいが紹介文のメンテが面倒なとき\n- 先行事例：見つからなかった",
@@ -68,10 +68,10 @@
       "name": "own-repos-curator-data",
       "url": "https://cat2151.github.io/own-repos-curator-data/",
       "created_at": "2026-04-04T06:09:56Z",
-      "updated_at": "2026-04-05T14:01:59Z",
+      "updated_at": "2026-04-05T14:05:31Z",
       "github_desc": "",
       "desc_short": "リポジトリ群を訪問者にわかりやすく可視化",
-      "desc_long": "",
+      "desc_long": "- どんなとき嬉しいか：インタラクティブにリポジトリ群をフィルタして紹介したいとき",
       "group": "github",
       "tags": [
         "browser"
@@ -252,7 +252,7 @@
       "name": "cat-repo-auditor",
       "url": "https://cat2151.github.io/cat-repo-auditor/README.ja.html",
       "created_at": "2026-02-13T13:24:05Z",
-      "updated_at": "2026-04-05T13:11:35Z",
+      "updated_at": "2026-04-05T14:57:48Z",
       "github_desc": "WIP",
       "desc_short": "全リポジトリの状況を可視化して管理",
       "desc_long": "",
@@ -296,7 +296,7 @@
       "created_at": "2026-01-30T13:04:34Z",
       "updated_at": "2026-02-01T12:51:23Z",
       "github_desc": "",
-      "desc_short": "",
+      "desc_short": "こちらは未着手。本体は https://cat2151.github.io/postmate-midi-experimental/ 側にある",
       "desc_long": "",
       "group": "stub",
       "tags": [
@@ -334,9 +334,9 @@
       "created_at": "2026-01-20T13:08:43Z",
       "updated_at": "2026-01-20T13:14:36Z",
       "github_desc": "",
-      "desc_short": "Tone.jsの音色エディタ。ランダム音色機能つき",
-      "desc_long": "",
-      "group": "tonejs",
+      "desc_short": "まだ音色エディタを作っていない。代わりに別リポジトリでランダム音色demoがある",
+      "desc_long": "- 別リポジトリのランダム音色demoとは : https://cat2151.github.io/tonejs-mml-to-json/tone-edit-demo/",
+      "group": "stub",
       "tags": [
         "audio",
         "browser"
@@ -484,8 +484,8 @@
       "created_at": "2025-12-30T02:41:52Z",
       "updated_at": "2026-02-12T22:16:20Z",
       "github_desc": "This oscilloscope visualizes audio from your microphone or wav-file with zero-cross detection for stable waveform display.",
-      "desc_short": "",
-      "desc_long": "",
+      "desc_short": "micやWAVファイルの音を可視化。位相を揃えて波形を見やすく表示",
+      "desc_long": "- 実際は位相を揃える処理に課題があり、micの音の位相は揃ったり揃わなかったりです",
       "group": "tonejs",
       "tags": [
         "audio",
@@ -568,7 +568,7 @@
       "created_at": "2025-11-04T13:20:17Z",
       "updated_at": "2026-02-23T22:15:12Z",
       "github_desc": "[WIP] vim初心者に成功体験を与える用のジョークアプリ。vimのサブセット。極端に機能を削減し、モードとキーバインドを過剰に派手に表示する",
-      "desc_short": "vimに過剰なヘルプ説明をつけたジョークアプリ",
+      "desc_short": "vimに過剰なヘルプ説明をつけたジョークアプリを目指しているが着手直後で停滞している",
       "desc_long": "",
       "group": "stub",
       "tags": [
@@ -711,8 +711,8 @@
       "created_at": "2025-07-05T10:15:18Z",
       "updated_at": "2026-04-01T16:22:20Z",
       "github_desc": "MML(Music Macro Language) to Tone.js JSON Sequencer Format Converter",
-      "desc_short": "Tone.js用MMLコンパイラ",
-      "desc_long": "",
+      "desc_short": "Tone.js用MMLコンパイラ。ランダム音色demoつき",
+      "desc_long": "- ランダム音色demoは画面左下のtone edit & effect edit demo をクリック",
       "group": "tonejs",
       "tags": [
         "audio",
