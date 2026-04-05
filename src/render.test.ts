@@ -10,6 +10,44 @@ function listRenderedGroupTabs(markup: string): string[] {
 }
 
 describe("renderApp group tabs", () => {
+  it("uses repo url directly for repo links", () => {
+    const data: ReposData = {
+      meta: {
+        github_desc_updated_at: "2026-04-01",
+        last_json_commit_push_date: "2026-04-01",
+        owner: "cat2151",
+      },
+      registered_tags: [],
+      repos: [
+        {
+          name: "repo-1",
+          url: "https://example.com/repo-1",
+          created_at: "2026-04-01",
+          updated_at: "2026-04-01",
+          github_desc: "",
+          desc_short: "",
+          desc_long: "",
+          tags: [],
+        },
+        {
+          name: "repo-2",
+          created_at: "2026-04-01",
+          updated_at: "2026-04-01",
+          github_desc: "",
+          desc_short: "",
+          desc_long: "",
+          tags: [],
+        },
+      ],
+    };
+
+    const markup = renderApp(data);
+
+    expect(markup).toContain('href="https://example.com/repo-1"');
+    expect(markup).not.toContain("data-open-repo=");
+    expect(markup).toContain("<h2>repo-2</h2>");
+  });
+
   it("sorts group tabs by repo count descending", () => {
     const data: ReposData = {
       meta: {

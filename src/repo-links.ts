@@ -1,5 +1,4 @@
-import { generatedRepoTargets } from "./generated-repo-targets";
-import type { ReposData } from "./types";
+import type { RepoEntry, ReposData } from "./types";
 
 const OWNER_PATTERNS = [
   /(?:https?:\/\/)?github\.com\/([A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?)(?:\/|$)/i,
@@ -30,8 +29,9 @@ function getConfiguredOwner(): string | null {
   return configuredOwner.length > 0 ? configuredOwner : null;
 }
 
-function getGeneratedRepoTarget(owner: string, repoName: string): string | null {
-  return generatedRepoTargets[`${owner}/${repoName}`] ?? generatedRepoTargets[repoName] ?? null;
+export function getRepoLinkUrl(repo: Pick<RepoEntry, "url">): string | null {
+  const url = repo.url?.trim();
+  return url && url.length > 0 ? url : null;
 }
 
 export function resolveOwner(data: ReposData): string | null {
@@ -54,12 +54,4 @@ export function resolveOwner(data: ReposData): string | null {
   }
 
   return null;
-}
-
-export function getRepoTopUrl(owner: string, repoName: string): string {
-  return `https://github.com/${encodeURIComponent(owner)}/${encodeURIComponent(repoName)}`;
-}
-
-export function resolvePreferredRepoUrl(owner: string, repoName: string): Promise<string> {
-  return Promise.resolve(getGeneratedRepoTarget(owner, repoName) ?? getRepoTopUrl(owner, repoName));
 }

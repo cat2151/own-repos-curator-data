@@ -1,4 +1,4 @@
-import { getRepoTopUrl, resolveOwner } from "./repo-links";
+import { getRepoLinkUrl, resolveOwner } from "./repo-links";
 import type { RepoEntry, ReposData } from "./types";
 
 export interface RenderOptions {
@@ -125,14 +125,14 @@ function renderRepoCard(
   activeTags: string[],
   now: Date,
   showGroupBadge: boolean,
-  owner: string | null,
 ): string {
   const summary = pickSummary(repo);
   const detail = repo.desc_long.trim();
   const group = getRepoGroup(repo);
   const repoName = escapeHtml(repo.name);
-  const repoLink = owner
-    ? `<a class="repo-link" href="${escapeHtml(getRepoTopUrl(owner, repo.name))}" target="_blank" rel="noopener noreferrer" data-open-repo="${repoName}" aria-label="${repoName} を別タブで開く">${repoName}</a>`
+  const repoUrl = getRepoLinkUrl(repo);
+  const repoLink = repoUrl
+    ? `<a class="repo-link" href="${escapeHtml(repoUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${repoName} を別タブで開く">${repoName}</a>`
     : repoName;
 
   return `    <li class="repo-card">
@@ -243,7 +243,7 @@ function renderHelpPanel(isHelpOpen: boolean): string {
           <p class="hero-help-label">repos</p>
           <ul class="hero-help-list">
             <li>カードには概要、tag、作成日と更新日の相対表示を出しています。</li>
-            <li>repo 名を押すと、通常は GitHub Pages、README ベースの Pages なら <code>README.ja.md</code>、Pages がなければ <code>README.ja.md</code>、最後に repo top を別タブで開きます。</li>
+            <li>repo 名を押すと <code>repos.json</code> の <code>url</code> を別タブで開きます。<code>url</code> が空ならリンクしません。</li>
             <li>「3行で説明」を開くと長文説明を確認できます。</li>
           </ul>
         </div>
@@ -258,7 +258,6 @@ export function renderApp(
   const { activeGroup, activeTags, isHelpOpen } = options;
   const now = new Date();
   const appTitle = getAppTitle(data);
-  const owner = resolveOwner(data);
   const availableGroups = listAvailableGroups(data);
   const groupScopedRepos = filterReposByGroup(data.repos, activeGroup);
   const filteredRepos = filterReposByTags(groupScopedRepos, activeTags);
@@ -280,7 +279,7 @@ export function renderApp(
     ...availableGroups.map((entry) => renderGroupTabButton(entry.name, entry.count, activeGroup)),
   ].join("\n");
   const repoItems = filteredRepos
-    .map((repo) => renderRepoCard(repo, activeTags, now, activeGroup === null, owner))
+    .map((repo) => renderRepoCard(repo, activeTags, now, activeGroup === null))
     .join("\n");
 
   return `  <main>

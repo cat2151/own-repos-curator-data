@@ -6,6 +6,7 @@ export interface RepoMeta {
 
 export interface RepoEntry {
   name: string;
+  url?: string;
   created_at: string;
   updated_at: string;
   github_desc: string;

@@ -5,7 +5,6 @@ import {
   type GroupTabRevealAlignment,
   type MountBehavior,
 } from "./group-tab-strip";
-import { createRepoLinkNavigator } from "./repo-link-navigation";
 import type { ReposData } from "./types";
 
 export type AppRenderer = (data: ReposData, options?: RenderOptions) => string;
@@ -33,8 +32,6 @@ export function createAppController(options: AppControllerOptions): AppControlle
   let isHelpOpen = false;
 
   const groupTabs = createGroupTabStripController(appRoot);
-  const repoLinkNavigator = createRepoLinkNavigator(() => currentData);
-
   function mount(behavior: MountBehavior = {}): void {
     groupTabs.captureScrollPosition();
     document.title = getAppTitle(currentData);
@@ -115,13 +112,6 @@ export function createAppController(options: AppControllerOptions): AppControlle
   function handleClick(event: MouseEvent): void {
     const target = event.target;
     if (!(target instanceof Element)) {
-      return;
-    }
-
-    const repoLink = target.closest<HTMLAnchorElement>("[data-open-repo]");
-    if (repoLink) {
-      event.preventDefault();
-      void repoLinkNavigator.openResolvedRepoLink(repoLink);
       return;
     }
 

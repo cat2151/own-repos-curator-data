@@ -4,8 +4,7 @@
   "description": "Vite app for own repos curator",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate-repo-targets && vite build --base ./",
-    "generate-repo-targets": "node scripts/generate-repo-targets.mjs",
+    "build": "vite build --base ./",
     "preview": "vite preview",
     "test": "vitest run --config vitest.config.ts",
     "typecheck": "tsc --noEmit"
