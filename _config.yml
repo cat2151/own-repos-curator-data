@@ -1,0 +1,8 @@
+title: "own-repos-curator-data"
+description: "own-repos-curator-data"
+theme: jekyll-theme-slate
+github:
+  is_project_page: true
+  repository_url: https://github.com/cat2151/own-repos-curator-data
+plugins:
+  - jekyll-sitemap
