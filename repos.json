@@ -40,25 +40,29 @@
   "repos": [
     {
       "name": "trace-rush",
-      "url": "",
+      "url": "https://cat2151.github.io/trace-rush/",
       "created_at": "2026-06-14T03:53:19Z",
       "updated_at": "2026-07-12T22:40:57Z",
       "github_desc": "",
-      "desc_short": "",
-      "desc_long": "",
-      "group": "ungrouped",
-      "tags": []
+      "desc_short": "タッチペンやマウスで遊ぶ手軽なゲーム",
+      "desc_long": "- どんなとき嬉しいか：ペンで線を引くのに慣れる、のをゲーム感覚で楽しみたいとき",
+      "group": "etc",
+      "tags": [
+        "browser"
+      ]
     },
     {
       "name": "cat-task-manager",
-      "url": "",
+      "url": "https://cat2151.github.io/cat-task-manager/README.ja.html",
       "created_at": "2026-05-19T13:53:58Z",
       "updated_at": "2026-06-23T13:07:11Z",
       "github_desc": "",
-      "desc_short": "",
-      "desc_long": "",
-      "group": "ungrouped",
-      "tags": []
+      "desc_short": "モーニングルーティーンなどを手軽にタスク管理",
+      "desc_long": "- どんなとき嬉しいか：モーニングルーティーンなどを手軽にタスク管理したいとき",
+      "group": "etc",
+      "tags": [
+        "tui"
+      ]
     },
     {
       "name": "gh-commit-ledger",
@@ -135,7 +139,7 @@
       "name": "own-repos-curator-data",
       "url": "https://cat2151.github.io/own-repos-curator-data/",
       "created_at": "2026-04-04T06:09:56Z",
-      "updated_at": "2026-04-25T23:14:30Z",
+      "updated_at": "2026-08-29T03:57:00Z",
       "github_desc": "",
       "desc_short": "リポジトリ群を訪問者にわかりやすく可視化",
       "desc_long": "- どんなとき嬉しいか：インタラクティブにリポジトリ群をフィルタして紹介したいとき",
@@ -263,7 +267,7 @@
       "name": "cat2151-hatena-blog-contents",
       "url": "https://cat2151.github.io/cat2151-hatena-blog-contents/",
       "created_at": "2026-03-11T13:24:06Z",
-      "updated_at": "2026-04-24T23:21:26Z",
+      "updated_at": "2026-08-29T03:58:32Z",
       "github_desc": "",
       "desc_short": "はてなブログの投稿記事をGitHubで書く",
       "desc_long": "- どんなとき嬉しいか：はてなブログの投稿記事をGitHubで書く仕組みを構築したいとき、参考にしたいとき",
